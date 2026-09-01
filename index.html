@@ -43,17 +43,94 @@
     <section id="about" class="section">
       <h2 class="section_title">About Me</h2>
       <div class="card about_card">
-        <p>Saya Putu Satria Pratama, mahasiswa Program Studi Teknologi Informasi Universitas Udayana.
+        <p>Saya <b>Putu Satria Pratama</b>, mahasiswa Program Studi Teknologi Informasi Universitas Udayana.
            Saya memiliki ketertarikan pada pengembangan software, data dan jaringan. 
            Saya memiliki pengalaman belajar menggunakan C/C++, Java, HTML, CSS, MySQL dan NoSQL, 
            serta memahami dasar jaringan dan pengembangan sistem berbasis ESP32. 
-           Saya senang mempelajari teknologi baru dan terus mengembangkan kemampuan untuk mewujudkan tujuan saya menjadi seorang IT Engineer.</p>
+           Saya senang mempelajari teknologi baru dan terus mengembangkan kemampuan untuk mewujudkan tujuan saya menjadi seorang <i>IT Engineer</i>.</p>
       </div>
     </section>
 
-    <!-- EDUCATION SECTION -->
+    <!-- MY HOBBY SECTION -->
+    <section class="section">
+      <h2 class="section_title">My Hobby</h2>
+      <ul class="list_container">
+        <li class="list_item">
+          <span class="bullet_dot"></span>
+          <p>Membaca Komik & Light Novel</p>
+        </li>
+        <li class="list_item">
+          <span class="bullet_dot"></span>
+          <p>Bermain Game</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION OVERVIEW  -->
+  <section class="section">
+    <h2 class="section_title">Education Overview</h2>
+    
+    <div class="card table_card">
+      <table class="custom_table">
+        <caption style="display: none;">Ringkasan Status Pendidikan</caption>
+
+        <!-- Colgroup: Pengaturan proporsi lebar 4 kolom -->
+        <colgroup>
+          <col class="col_level">
+          <col class="col_institution">
+          <col class="col_year">
+          <col class="col_status">
+        </colgroup>
+
+        <!-- Thead: Header Tabel -->
+        <thead>
+          <tr>
+            <th>Jenjang</th>
+            <th>Nama Institusi</th>
+            <th>Tahun</th>
+            <th>Status Akademik</th>
+          </tr>
+        </thead>
+
+        <!-- Tbody: Data Utama -->
+        <tbody>
+          <tr>
+            <td><strong>SMP</strong></td>
+            <td>SMP Negeri 4 Denpasar</td>
+            <td>2021 - 2023</td>
+            <td><span class="edu_date">Lulus</span></td>
+          </tr>
+          <tr>
+            <td><strong>SMA</strong></td>
+            <td>SMA Negeri 4 Denpasar</td>
+            <td>2023 - 2025</td>
+            <td><span class="edu_date">Lulus</span></td>
+          </tr>
+          <tr>
+            <td><strong>Perguruan Tinggi</strong></td>
+            <td>Universitas Udayana</td>
+            <td>2025 - Sekarang</td>
+            <td><span class="edu_date active">Aktif Belajar</span></td>
+          </tr>
+        </tbody>
+
+        <!-- Tfoot: Penggabungan Sel (Colspan & Rowspan) -->
+        <tfoot>
+          <tr>
+            <td rowspan="2" class="foot_label">Ringkasan Status</td>
+            <td colspan="3">Pendidikan Formal: 2 Lulus | 1 Sedang Ditempuh</td>
+          </tr>
+          <tr>
+            <td colspan="3">Status Utama: Mahasiswa Aktif Program Studi Teknologi Informasi</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+
+    <!-- EDUCATION TIMELINE SECTION -->
     <section id="education" class="section">
-    <h2 class="section_title">Education</h2>
+    <h2 class="section_title">Education Timeline</h2>
     
     <div class="timeline">
       <!-- Item 1 (Universitas) -->
