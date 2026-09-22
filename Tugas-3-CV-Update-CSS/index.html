@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Putu Satria Pratama</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- KERANGKA UTAMA LAYOUT -->
+    <div class="app_container">
+
+      <!-- HEADER SECTION -->
+      <header class="navbar">
+        <div class="logo">Satria Pratama</div>
+        <nav class="nav_links">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#organization">Organization</a>
+          <a href="#languages">Languages</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="btn_download">Download CV</button>
+      </header>
+
+      <!-- MAIN CONTENT SECTION -->
+      <main class="main_content">
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+          <div class="hero_text">
+            <span class="subtitle">MAHASISWA TEKNOLOGI INFORMASI</span>
+            <h1>PUTU SATRIA PRATAMA</h1>
+            <p>
+              Halo semua, saya Putu Satria Pratama, bisa di panggil Satria. Saya
+              merupakan seorang mahasiswa Teknologi Informasi, saya ingin
+              menjadi seorang IT Engineer yang sukses.
+            </p>
+          </div>
+          <div class="hero_image">
+            <img src="Foto Diri.jpeg" alt="Foto Diri" />
+          </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+          <h2 class="section_title">About Me</h2>
+          <div class="card about_card">
+            <p class="about_bio">
+              Saya <b>Putu Satria Pratama</b>, mahasiswa Program Studi Teknologi
+              Informasi Universitas Udayana. Saya memiliki ketertarikan pada
+              pengembangan software, data, dan jaringan. Saya memiliki
+              pengalaman belajar menggunakan C/C++, Java, HTML, CSS, MySQL, dan
+              NoSQL, serta memahami dasar jaringan dan pengembangan sistem
+              berbasis ESP32. Saya senang mempelajari teknologi baru dan terus
+              mengembangkan kemampuan untuk mewujudkan tujuan saya menjadi
+              seorang <i>IT Engineer</i>.
+            </p>
+            <!-- Highlight Info -->
+            <div class="about_highlights">
+              <div class="highlight_item">
+                <i class="fa-solid fa-building-columns"></i>
+                <div>
+                  <span class="hl_label">Institusi</span>
+                  <span class="hl_val">Universitas Udayana</span>
+                </div>
+              </div>
+              <div class="highlight_item">
+                <i class="fa-solid fa-laptop-code"></i>
+                <div>
+                  <span class="hl_label">Fokus Utama</span>
+                  <span class="hl_val">IT Engineering</span>
+                </div>
+              </div>
+              <div class="highlight_item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <span class="hl_label">Lokasi</span>
+                  <span class="hl_val">Denpasar, Bali</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- MY HOBBY SECTION -->
+        <section class="section">
+          <h2 class="section_title">My Hobby</h2>
+
+          <ul class="hobby_list">
+            <li class="card hobby_item">
+              <div class="hobby_icon">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <div class="hobby_info">
+                <h3>Membaca Komik & Light Novel</h3>
+                <p>
+                  Mengisi waktu luang dengan membaca berbagai genre komik dan
+                  novel ringan.
+                </p>
+              </div>
+            </li>
+
+            <li class="card hobby_item">
+              <div class="hobby_icon">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <div class="hobby_info">
+                <h3>Bermain Game</h3>
+                <p>
+                  Menikmati game kompetitif dan kasual untuk melatih strategi
+                  serta fokus.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- EDUCATION OVERVIEW -->
+        <section id="education" class="section">
+          <h2 class="section_title">Education Overview</h2>
+
+          <div class="card table_card">
+            <table class="custom_table">
+              <caption style="display: none">
+                Ringkasan Status Pendidikan
+              </caption>
+              <colgroup>
+                <col class="col_level" />
+                <col class="col_institution" />
+                <col class="col_year" />
+                <col class="col_status" />
+              </colgroup>
+
+              <thead>
+                <tr>
+                  <th>Jenjang</th>
+                  <th>Nama Institusi</th>
+                  <th>Tahun</th>
+                  <th>Status Akademik</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td><strong class="level_tag">SMP</strong></td>
+                  <td class="inst_name">SMP Negeri 4 Denpasar</td>
+                  <td>
+                    <i class="fa-regular fa-calendar-days icon_date"></i> 2021 -
+                    2023
+                  </td>
+                  <td>
+                    <span class="badge badge_passed"
+                      ><i class="fa-solid fa-circle-check"></i> Lulus</span
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong class="level_tag">SMA</strong></td>
+                  <td class="inst_name">SMA Negeri 4 Denpasar</td>
+                  <td>
+                    <i class="fa-regular fa-calendar-days icon_date"></i> 2023 -
+                    2025
+                  </td>
+                  <td>
+                    <span class="badge badge_passed"
+                      ><i class="fa-solid fa-circle-check"></i> Lulus</span
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong class="level_tag active">Perguruan Tinggi</strong>
+                  </td>
+                  <td class="inst_name highlight">Universitas Udayana</td>
+                  <td>
+                    <i class="fa-regular fa-calendar-days icon_date"></i> 2025 -
+                    Sekarang
+                  </td>
+                  <td>
+                    <span class="badge badge_active"
+                      ><i class="fa-solid fa-spinner fa-spin-pulse"></i> Aktif
+                      Belajar</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- RINGKASAN STATUS -->
+            <div class="summary_box">
+              <div class="summary_item">
+                <div class="summary_icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="summary_text">
+                  <span class="summary_title">Pendidikan Formal</span>
+                  <p><b>2</b> Lulus | <b>1</b> Sedang Ditempuh</p>
+                </div>
+              </div>
+              <div class="summary_divider"></div>
+              <div class="summary_item">
+                <div class="summary_icon active">
+                  <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <div class="summary_text">
+                  <span class="summary_title">Status Utama</span>
+                  <p>Mahasiswa Aktif Program Studi Teknologi Informasi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- EDUCATION TIMELINE SECTION -->
+        <section class="section">
+          <h2 class="section_title">Education Timeline</h2>
+
+          <div class="timeline">
+            <div class="timeline_item">
+              <div class="timeline_dot active"></div>
+              <div class="card education_card">
+                <div class="education_info">
+                  <h3>Universitas Udayana</h3>
+                  <p>Program Studi Teknologi Informasi</p>
+                </div>
+                <span class="education_date active">2025 - Sekarang</span>
+              </div>
+            </div>
+
+            <div class="timeline_item">
+              <div class="timeline_dot"></div>
+              <div class="card education_card">
+                <div class="education_info">
+                  <h3>SMA Negeri 4 Denpasar</h3>
+                </div>
+                <span class="education_date">2023 - 2025</span>
+              </div>
+            </div>
+
+            <div class="timeline_item">
+              <div class="timeline_dot"></div>
+              <div class="card education_card">
+                <div class="education_info">
+                  <h3>SMP Negeri 4 Denpasar</h3>
+                </div>
+                <span class="education_date">2021 - 2023</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+          <h2 class="section_title">Technical Skills</h2>
+
+          <div class="skills_grid">
+            <div class="card skill_card">
+              <div class="skill_header">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
+              </div>
+              <div class="skill_tags">
+                <span class="tag">C/C++</span>
+                <span class="tag">Java</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </div>
+
+            <div class="card skill_card">
+              <div class="skill_header">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Networking</h3>
+              </div>
+              <div class="skill_tags">
+                <span class="tag">Subnetting</span>
+                <span class="tag">Routing</span>
+                <span class="tag">Cisco Packet Tracer</span>
+              </div>
+            </div>
+
+            <div class="card skill_card">
+              <div class="skill_header">
+                <i class="fa-solid fa-database"></i>
+                <h3>Data</h3>
+              </div>
+              <div class="skill_tags">
+                <span class="tag">MySQL</span>
+                <span class="tag">NoSQL</span>
+              </div>
+            </div>
+
+            <div class="card skill_card">
+              <div class="skill_header">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>IoT</h3>
+              </div>
+              <div class="skill_tags">
+                <span class="tag">ESP32</span>
+                <span class="tag">Arduino IDE</span>
+              </div>
+            </div>
+
+            <div class="card skill_card">
+              <div class="skill_header">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Tools</h3>
+              </div>
+              <div class="skill_tags">
+                <span class="tag">VS Code</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Git/GitHub</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section">
+          <h2 class="section_title">Projects</h2>
+
+          <div class="card project_card">
+            <div class="project_image">
+              <img src="Foto Project.jpeg" alt="Foto Project" />
+            </div>
+
+            <div class="project_details">
+              <h3>Smart Trash Bin</h3>
+              <p class="project_desc">
+                Proyek IoT berbasis ESP32 berupa tempat sampah pintar yang dapat
+                mendeteksi dan memilah sampah basah dan kering secara otomatis.
+              </p>
+
+              <div class="project_components">
+                <span class="component_label">COMPONENTS</span>
+                <div class="component_tags">
+                  <span>ESP32 •</span>
+                  <span>Sensor Ultrasonic HC-SR04 •</span>
+                  <span>Soil Moisture Sensor •</span>
+                  <span>Servo •</span>
+                  <span>Breadboard •</span>
+                  <span>Kabel Jumper</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ORGANIZATION SECTION -->
+        <section id="organization" class="section">
+          <h2 class="section_title">Organization Experience</h2>
+
+          <div class="card table_card">
+            <table class="org_table">
+              <thead>
+                <tr>
+                  <th>Nama Organisasi</th>
+                  <th>Jabatan</th>
+                  <th>Tahun</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="org_name">
+                    <i class="fa-solid fa-users-gear org_icon"></i>
+                    <div>
+                      <strong>Technology Artisan Universitas Udayana</strong>
+                      <span class="org_sub"
+                        >Unit Kegiatan Mahasiswa / Komunitas IT</span
+                      >
+                    </div>
+                  </td>
+                  <td><span class="badge badge_role">Anggota</span></td>
+                  <td>
+                    <span class="badge badge_active"
+                      ><i class="fa-solid fa-spinner fa-spin-pulse"></i> 2025 -
+                      Sekarang</span
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td class="org_name">
+                    <i class="fa-solid fa-sitemap org_icon"></i>
+                    <div>
+                      <strong>Himpunan Mahasiswa Teknologi Informasi</strong>
+                      <span class="org_sub">Universitas Udayana</span>
+                    </div>
+                  </td>
+                  <td><span class="badge badge_role">Anggota</span></td>
+                  <td>
+                    <span class="badge badge_active"
+                      ><i class="fa-solid fa-spinner fa-spin-pulse"></i> 2025 -
+                      Sekarang</span
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td class="org_name">
+                    <i class="fa-solid fa-palette org_icon"></i>
+                    <div>
+                      <strong>Kelompok Seni Rupa (KSR-4)</strong>
+                      <span class="org_sub">SMA Negeri 4 Denpasar</span>
+                    </div>
+                  </td>
+                  <td><span class="badge badge_role">Anggota</span></td>
+                  <td><span class="badge badge_passed">2023 - 2025</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- LANGUAGES SECTION -->
+        <section id="languages" class="section">
+          <h2 class="section_title">Languages</h2>
+
+          <div class="card languages_card">
+            <div class="languages_item">
+              <span>Bahasa Indonesia</span>
+              <span class="languages_level">Native</span>
+            </div>
+            <div class="languages_item">
+              <span>Bahasa Inggris</span>
+              <span class="languages_level">Basic</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT FORM SECTION -->
+        <section id="contact_form" class="section_contact_form">
+          <h2 class="section_title">Formulir Kontak</h2>
+
+          <div class="card form_card">
+            <form action="" method="POST" class="contact_form_container">
+              <table
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                class="form_table"
+              >
+                <tr>
+                  <td class="form_label">
+                    <label for="contact_name">Nama Lengkap</label>
+                  </td>
+                  <td class="form_colon">:</td>
+                  <td>
+                    <input
+                      type="text"
+                      id="contact_name"
+                      name="contact_name"
+                      placeholder="Masukkan Nama Lengkap Anda"
+                      required
+                      class="form_input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="form_label">
+                    <label for="contact_email">Alamat Email</label>
+                  </td>
+                  <td class="form_colon">:</td>
+                  <td>
+                    <input
+                      type="email"
+                      id="contact_email"
+                      name="contact_email"
+                      placeholder="Contoh@gmail.com"
+                      required
+                      class="form_input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="form_label">
+                    <label for="contact_password">Password</label>
+                  </td>
+                  <td class="form_colon">:</td>
+                  <td>
+                    <input
+                      type="password"
+                      id="contact_password"
+                      name="contact_password"
+                      placeholder="Masukkan Password"
+                      required
+                      class="form_input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="form_label">
+                    <label for="contact_hobby">Hobi</label>
+                  </td>
+                  <td class="form_colon">:</td>
+                  <td>
+                    <select
+                      id="contact_hobby"
+                      name="contact_hobby"
+                      class="form_input"
+                      required
+                    >
+                      <option value="" disabled selected hidden>
+                        Pilih Hobi
+                      </option>
+                      <option value="membaca_komik">
+                        Membaca Komik & Light Novel
+                      </option>
+                      <option value="bermain_game">Bermain Game</option>
+                      <option value="coding">Coding</option>
+                      <option value="olahraga">Olahraga</option>
+                      <option value="lainnya">Lainnya</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="form_label">
+                    <label for="contact_phone">Nomor Telepon</label>
+                  </td>
+                  <td class="form_colon">:</td>
+                  <td>
+                    <input
+                      type="tel"
+                      id="contact_phone"
+                      name="contact_phone"
+                      pattern="[0-9]*"
+                      inputmode="numeric"
+                      placeholder="08xxxxxxxxxx"
+                      required
+                      class="form_input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="form_label" valign="top">
+                    <label for="contact_address">Alamat</label>
+                  </td>
+                  <td class="form_colon" valign="top">:</td>
+                  <td>
+                    <textarea
+                      id="contact_address"
+                      name="contact_address"
+                      rows="4"
+                      placeholder="Masukkan Alamat Lengkap Anda"
+                      class="form_input"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td class="form_buttons_cell">
+                    <button type="submit" id="submit_btn" class="submit_btn">
+                      Kirim
+                    </button>
+                    <button type="reset" id="reset_btn" class="reset_btn">
+                      Reset
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER CONTACT SECTION -->
+      <footer id="contact" class="footer_card">
+        <div class="connect_title">
+          <h2>Let's Connect</h2>
+        </div>
+
+        <div class="contact_links">
+          <div class="contact_item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp: 081237387192</span>
+          </div>
+          <div class="contact_item">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Email: putusatriapratama670@gmail.com</span>
+          </div>
+          <div class="contact_item">
+            <i class="fa-solid fa-code"></i>
+            <span>GitHub: Satria250</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
